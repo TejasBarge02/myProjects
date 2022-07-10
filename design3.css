@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+}
+.resume{
+    width: 1000px;
+    background-color: whitesmoke;
+    margin: auto;
+    
+}
+.profile_img{
+    padding: 2rem;
+    width: 17rem;
+    height: 17rem;
+}
+.profile{
+    background-color: rgb(75, 70, 70);
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-gap: 3rem;
+}
+/* .profile > span{
+    display: inline;
+} */
+.info{
+    margin-top: 6rem;
+    padding-left: 2rem;
+    color: whitesmoke;
+}
+.info h1{
+    display: inline;
+    padding-bottom: 1rem;
+    border-bottom: 5px solid whitesmoke;
+    font-size: 2rem;
+    letter-spacing: 15px;
+}
+.info h3{
+    padding-top: 2rem;
+    font-size: 1.4rem;
+    letter-spacing: 5px;
+}
+.experience, .education, .contact, .skills{
+    padding-top: 3rem;
+    color:rgb(54, 54, 54)
+
+}
+.event{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+ul{
+    margin-left: 4rem;
+    list-style-type: none;
+}
+h2{
+    background-color: rgb(201, 201, 201);
+    padding-left: 2rem;
+    color: rgb(71, 71, 71);
+}
+a{
+    text-decoration: none;
+    color: rgb(92, 91, 91);
+}
+p{
+    color: rgb(92, 91, 91);
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.skills{
+    padding-left: 1rem;
+}
+.skill_names{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.percentage{
+    position:relative;
+    width: 100%;
+    height: 1rem;
+    background-color: rgb(158, 158, 158);
+}
+.details, .skills ul{
+    margin-top: 1rem;
+}
+.percentage div{
+    position:relative;
+    width: 100%;
+    height: 1rem;
+    background-color: rgb(54, 54, 54);
+}
