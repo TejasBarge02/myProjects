@@ -1,0 +1,45 @@
+body{
+    background: black;
+}
+#clCont{
+    position: relative;
+    background-color: black;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+
+}
+#hour, #minute, #second{
+    position: absolute;
+    background-color: black;
+    border-radius: 5px;
+    transform-origin: bottom;
+}
+#hour{
+    width: 1.6%;
+    height: 19%;
+    top: 31%;
+    left: 50%;
+
+}
+#minute{
+    width: 1.2%;
+    height: 28%;
+    top: 22%;
+    left: 50%;
+}
+#second{
+    width: 0.8%;
+    height: 32%;
+    top: 18%;
+    left: 50%;
+}
+select{
+    border-radius: 50px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: rgb(240, 240, 153);
+}
