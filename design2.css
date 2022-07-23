@@ -28,7 +28,7 @@ body{
     border-top: 25px solid rgb(160, 131, 0);
     border-bottom: 25px solid rgb(160, 131, 0); */
     display: grid;
-    grid-template-columns: 25% 1fr;
+    grid-template-columns: 28% 1fr;
     grid-gap: 1rem;
     /* position: relative; */
     /* for gradient border to right */
